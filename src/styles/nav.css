@@ -15,9 +15,10 @@
 
 #personal-logo{
     width: 100px;
-    height: 100px;
-    border-radius: 4px;
-    margin-top: 20px;
+    height: 75px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 16px;
 }
 
 .nav__link--list{
@@ -31,6 +32,6 @@
 .nav__link--anchor{
     text-decoration: none;
     font-size: 20px;
-    color: #242424;
+    color: white;
     font-weight: 700;
 }

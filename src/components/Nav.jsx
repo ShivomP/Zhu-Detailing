@@ -13,16 +13,22 @@ function Nav() {
                     </figure>
                     <ul className="nav__link--list">
                         <li className="nav__link">
-                            <a href="#about" className="nav__link--ancho">
+                            <a href="#about" className="nav__link--anchor">
                                 About
                             </a>
-                            <a href="#services" className="nav__link--ancho">
+                        </li>
+                        <li className="nav__link">
+                            <a href="#services" className="nav__link--anchor">
                                 Services
                             </a>
-                            <a href="#bookings" className="nav__link--ancho">
+                        </li>
+                        <li className="nav__link">
+                            <a href="#bookings" className="nav__link--anchor">
                                 Bookings
                             </a>
-                            <a href="#contact" className="nav__link--ancho">
+                        </li>
+                        <li className="nav__link">
+                            <a href="#contact" className="nav__link--anchor">
                                 Contact
                             </a>
                         </li>

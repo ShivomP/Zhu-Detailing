@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
 }
 
 html{
@@ -48,4 +50,11 @@ section{
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+.title{
+  font-size: 120px;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 1;
 }
