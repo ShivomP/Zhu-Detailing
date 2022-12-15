@@ -1,0 +1,67 @@
+#services{
+    background-color: black;
+}
+
+.service{
+    margin-bottom: 135px;
+}
+
+.service__title{
+    text-align: center;
+    font-size: 75px;
+    background-color: dodgerblue;
+    padding: 100px;
+    border-radius: 20px;
+    transition: all 600ms ease;
+}
+
+.service:hover .service__title{
+    transform: scale(1.07);
+    filter: blur(5px);
+}
+
+.service__wrapper{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+.service__wrapper:hover .service__description{
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.service__description{
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(100%);
+    color: white;
+    max-width: 550px;
+    opacity: 0;
+    transition: opacity 300ms, transform 450ms ease;
+}
+
+.service__wrapper:hover .service__wrapper--bg{
+    opacity: 0.7;
+}
+
+.service__wrapper--bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1d25;
+    opacity: 0;
+    transition: all 450ms ease;
+}
+
+.service__description--price{
+    font-size: 30px;
+}
+
+.service__description--para{
+    margin: 16px 0;
+}
