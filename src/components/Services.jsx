@@ -1,5 +1,11 @@
 import React from 'react'
 import '../styles/services.css'
+import HandWash from '../assets/handwash.png'
+import MaitDetail from '../assets/maitenancedetail.png'
+import ExtDetail from '../assets/exteriordetail.png'
+import IntDetail from '../assets/interiordetail.png'
+import ComDetail from '../assets/completedetail.png'
+import Add from '../assets/add.png'
 
 function Services() {
   return (
@@ -11,8 +17,9 @@ function Services() {
           </h1>
           <ul className="service__list">
             <li className="service">
+              <div className="service__title"><b>Professional Hand Wash</b></div>
               <div className="service__wrapper">
-                <div className="service__title">Professional Hand Wash</div>
+                <img src={HandWash} alt="" className="service__img" />
                 <div className="service__wrapper--bg"></div>
                 <div className="service__description">
                   <h3 className="service__description--price">
@@ -26,8 +33,9 @@ function Services() {
               </div>
             </li>
             <li className="service">
+              <div className="service__title"><b>Maintenance Detail</b></div>
               <div className="service__wrapper">
-                <div className="service__title">Maintenance Detail</div>
+                <img src={MaitDetail} alt="" className="service__img" />
                 <div className="service__wrapper--bg"></div>
                 <div className="service__description">
                   <h3 className="service__description--price">
@@ -42,8 +50,9 @@ function Services() {
               </div>
             </li>
             <li className="service">
+              <div className="service__title"><b>Exterior Premium Detail</b></div>
               <div className="service__wrapper">
-                <div className="service__title">Exterior Premium Detail</div>
+                <img src={ExtDetail} alt="" className="service__img" />
                 <div className="service__wrapper--bg"></div>
                 <div className="service__description">
                   <h3 className="service__description--price">
@@ -51,15 +60,16 @@ function Services() {
                   </h3>
                   <p className="service__description--para">
                     <b>Description:</b> A full wash of the exterior that removes all surfaces dirt, road tar, and iron
-                    fallout. After the car is coated in carnauba wax. YOur exterior will be protected
+                    fallout. After the car is coated in carnauba wax. Your exterior will be protected
                     and look straight off the lot.
                   </p>
                 </div>
               </div>
             </li>
             <li className="service">
+              <div className="service__title"><b>Interior Premium Detail</b></div>
               <div className="service__wrapper">
-                <div className="service__title">Interior Premium Detail</div>
+                <img src={IntDetail} alt="" className="service__img" />
                 <div className="service__wrapper--bg"></div>
                 <div className="service__description">
                   <h3 className="service__description--price">
@@ -75,8 +85,9 @@ function Services() {
               </div>
             </li>
             <li className="service">
+              <div className="service__title"><b>Complete Detail</b></div>
               <div className="service__wrapper">
-                <div className="service__title">Complete Detail</div>
+                <img src={ComDetail} alt="" className="service__img" />
                 <div className="service__wrapper--bg"></div>
                 <div className="service__description">
                   <h3 className="service__description--price">
@@ -90,12 +101,13 @@ function Services() {
               </div>
             </li>
             <li className="service">
+              <div className="service__title"><b>Add Ons</b></div>
               <div className="service__wrapper">
-                <div className="service__title">Add Ons</div>
+                <img src={Add} alt="" className="service__img" />
                 <div className="service__wrapper--bg"></div>
                 <div className="service__description">
                   <h3 className="service__description--price">
-                    Fabric Stain Remover/Shampooing: $35
+                    Fabric Stain Remover: $35
                   </h3>
                   <p className="service__description--para">
                     <b>Description:</b> This option is only available with the purchase of the interior premium detail or complete detail.

@@ -6,16 +6,26 @@
     margin-bottom: 135px;
 }
 
-.service__title{
-    text-align: center;
-    font-size: 75px;
-    background-color: dodgerblue;
-    padding: 100px;
-    border-radius: 20px;
-    transition: all 600ms ease;
+.service__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.service:hover .service__title{
+.service__title{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.service__img{
+    border-radius: 20px;
+    transition: all 600ms ease;
+    height: 300px;
+    width: 300px;
+}
+
+.service:hover .service__img{
     transform: scale(1.07);
     filter: blur(5px);
 }
@@ -35,7 +45,6 @@
 .service__description{
     position: absolute;
     top: 50%;
-    left: 90px;
     transform: translateY(100%);
     color: white;
     max-width: 550px;
@@ -59,9 +68,10 @@
 }
 
 .service__description--price{
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .service__description--para{
     margin: 16px 0;
+    font-size: 16px;
 }
