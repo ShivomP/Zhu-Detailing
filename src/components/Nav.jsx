@@ -23,11 +23,6 @@ function Nav() {
                             </a>
                         </li>
                         <li className="nav__link">
-                            <a href="#bookings" className="nav__link--anchor">
-                                Bookings
-                            </a>
-                        </li>
-                        <li className="nav__link">
                             <a href="#contact" className="nav__link--anchor">
                                 Contact
                             </a>
