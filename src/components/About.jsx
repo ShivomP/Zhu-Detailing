@@ -21,10 +21,10 @@ function About() {
                   and this car detailing business is just the beginning
                   of my journey. I take great pride in my work which is 
                   why I always make sure to pay attention to detail and 
-                  each customer my best work. Please reach out to inquire 
-                  about my services and prices. I am also more than
-                  willing to provide you with customer reviews and before/after 
-                  results.
+                  ensure each customer recceives my best work. Please 
+                  reach out to inquire about my services and prices. I am 
+                  also more than willing to provide you with customer reviews 
+                  and before/after results.
                 </div>
             </div>
         </div>
