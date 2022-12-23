@@ -1,5 +1,5 @@
 #about{
-    background-color: dodgerblue;
+    background-color: #ff5733;
 }
 
 .about__wrapper{
@@ -17,7 +17,7 @@
 }
 
 .about__para{
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2;
     max-width: 450px;
 }

@@ -1,5 +1,5 @@
 #contact{
-    background-color: dodgerblue;
+    background-color: #ff5733;
 }
 
 .contact__wrapper{
@@ -37,7 +37,7 @@
 }
 
 #contact__form{
-    background-color: black;
+    background-color: #002a53;
     border-radius: 20px;
     box-shadow: 0 3px 10px -3px rgb(0, 0, 0 / 54%);
     display: grid;
@@ -48,8 +48,8 @@
 }
 
 .form__submit{
-    background-color: dodgerblue;
-    border: 2px solid dodgerblue;
+    background-color: #ff5733;
+    border: 2px solid #ff5733;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -66,6 +66,6 @@
 }
 
 .form__submit:active{
-    border-color:dodgerblue;
-    color:dodgerblue;
+    border-color:#002a53;
+    color:#002a53;
 }

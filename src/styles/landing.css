@@ -1,37 +1,20 @@
 #landing{
     min-height: 100vh;
-    background-color: black;
+    background-color: #002a53;
 }
 
 .header__content{
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
-    justify-content: space-between;
-}
-
-.display__before{
-    width: 400px;
-    height: 200px;
-    border-radius: 20px;
-    border: 2px solid white;
-    margin-top: 16px;
-}
-
-.display__after{
-    width: 400px;
-    height: 200px;
-    border-radius: 20px;
-    border: 2px solid white;
-    margin-top: 16px;
+    padding: 0 30px;
 }
 
 .header__para{
-    font-size: 24px;
+    font-size: 18px;
     line-height: 2;
     max-width: 450px;
 }

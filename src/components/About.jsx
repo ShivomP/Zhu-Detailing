@@ -17,12 +17,14 @@ function About() {
                     className="about__img" 
                 />
                 <div className="about__para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Et beatae sint cum ipsum temporibus non, ducimus alias 
-                    minus sapiente. Fugiat, voluptate nam doloremque, r
-                    epudiandae dolor alias magni aliquam nihil voluptates necessitatibus 
-                    dignissimos iure tempore odit tempora a culpa aliquid sunt delectus nisi. 
-                    Nesciunt, non assumenda?
+                  Hi, my name is Alan Zhu. I'm an entrepreneur
+                  and this car detailing business is just the beginning
+                  of my journey. I take great pride in my work which is 
+                  why I always make sure to pay attention to detail and 
+                  each customer my best work. Please reach out to inquire 
+                  about my services and prices. I am also more than
+                  willing to provide you with customer reviews and before/after 
+                  results.
                 </div>
             </div>
         </div>
