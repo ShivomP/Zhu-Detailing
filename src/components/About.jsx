@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/about.css'
 import Profile from '../assets/profile.png'
 
 function About() {
@@ -21,7 +20,7 @@ function About() {
                   and this car detailing business is just the beginning
                   of my journey. I take great pride in my work which is 
                   why I always make sure to pay attention to detail and 
-                  ensure each customer recceives my best work. Please 
+                  ensure each customer receives my best work. Please 
                   reach out to inquire about my services and prices. I am 
                   also more than willing to provide you with customer reviews 
                   and before/after results.

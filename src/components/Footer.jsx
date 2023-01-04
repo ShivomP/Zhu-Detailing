@@ -1,7 +1,6 @@
 import React from 'react'
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import Logo from '../assets/logo.png'
-import '../styles/footer.css'
 
 function Footer() {
   return (

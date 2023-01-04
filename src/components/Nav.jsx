@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../assets/logo.png'
-import '../styles/nav.css'
 
 function Nav() {
   return (

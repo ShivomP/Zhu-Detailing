@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/contact.css'
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/services.css'
 import HandWash from '../assets/handwash.png'
 import MaitDetail from '../assets/maitenancedetail.png'
 import ExtDetail from '../assets/exteriordetail.png'
