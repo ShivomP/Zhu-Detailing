@@ -309,6 +309,11 @@ section{
   color:#002a53;
 }
 
+.form__sent{
+  text-align: center;
+  margin-top: 6px;
+}
+
 /* FOOTER */
 
 footer{
