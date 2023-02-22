@@ -208,6 +208,7 @@ section{
   max-width: 550px;
   opacity: 0;
   transition: opacity 300ms, transform 450ms ease;
+  padding: 6px;
 }
 
 .service__wrapper:hover .service__wrapper--bg{
